@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<style type="text/css">
+		html {
+			scroll-behavior: smooth;
+		}
+		.main_footer {
+			background: #222;
+			height: 300px;
+			width: 100%;
+			position: relative;
+			left: 0;
+			right: 0;
+			bottom: 0;
+/*			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			bottom: 0;*/
+		}
+		.first_section {
+			width: 32%;
+			height: 100%;
+			float: left;
+			/*background: red;*/
+		}
+		.second_section {
+			width: 32%;
+			height: 100%;
+			float: left;
+			/*background: white;*/
+		}
+		.third_section {
+			width: 32%;
+			height: 100%;
+			float: left;
+			/*background: yellow;*/
+		}
+		.second_section ul li {
+			list-style: none;
+
+		}
+		.second_section ul li a {
+			text-decoration: none;
+			font-size: 18px;
+			color: white;
+			letter-spacing: 2px;
+			
+		}
+		.social_links_ul li {
+			display: inline-block;
+			color: white;
+			font-size: 25px;
+			position: relative;
+			bottom: 20px;
+			margin-left: 10px;
+		}
+		.copyright{
+			background: black;
+			width: 100%;
+			text-align: center;
+			color: white;
+
+		}
+		.copyright p {
+			text-align: center;
+			position: relative;
+			right: 25%;
+		}
+	</style>
+</head>
+<body>
+	<div class="bgimage">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top navigation">
+			<div class="container">
+				<a href="#" class="navbar-brand text-warning font-weight-bold" id="logo"> ZeeshanWebsite </a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+					<span class="navbar-toggler-icon"> </span>
+				</button>
+
+				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="#service" class="nav-link text-white">SERVICES</a></li>
+						<li class="nav-item"><a href="#portfolios" class="nav-link text-white">PORTFOLIO</a></li>
+						<li class="nav-item"><a href="#about" class="nav-link text-white">ABOUT</a></li>
+						<li class="nav-item"><a href="#team" class="nav-link text-white">TEAM</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link text-white">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container text-center headerset">
+			<h2> Welcome To Our Website </h2>
+			<h1> IT'S NICE TO MEET YOU </h1>
+			<button class="btn btn-warning btn-lg text-white"> SUBSCRIBE </button>			
+		</div>
+	</div>
+	
+	<section class="container ouservices bg-light" id="service">
+		<h2 class="text-center font-weight-bold text-dark"> OUR SERVICES </h2>
+		<p class="text-center text-dark"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+		<div class="row text-center service">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto text-center">
+					<i class="fas fa-shopping-cart fa-3x text-white bg-warning"></i>
+				</div>
+				<h2 class="text-dark">E-Commerce</h2>
+				<p class="text-dark"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto text-dark">
+				<div class="imgsetting d-block m-auto">
+					<i class="fas fa-desktop fa-3x text-white bg-warning"></i>
+				</div>
+				<h2 class="text-dark">E-Commerce</h2>
+				<p class="text-dark"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto">
+					<i class="fas fa-lock fa-3x text-white bg-warning"></i>
+				</div>
+				<h2 class="text-dark">E-Commerce</h2>
+				<p class="text-dark"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- ///////////////section 2/////////////////// -->
+
+	<section class="container portfolio" id="portfolios">
+		<div>
+			<h1 class="text-center font-weight-bold text-dark"> PORTFOLIO </h1>
+			<p class="text-dark text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed </p>
+		</div>
+
+		<div class="row text-center row_setting_1">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
+				<div class="card">
+					<img class="card-img img-fluid" src="images/portfolio1.jpg" alt="">
+					<div class="card-body">
+						<h2 class="card-title"> Threads </h2>
+						<p class="card-text"> Photoshop </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
+				<div class="card">
+					<img class="card-img img-fluid" src="images/portfolio2.jpg" alt="">
+					<div class="card-body">
+						<h2 class="card-title">Explore</h2>
+						<p class="card-text"> Graphic Design </p>
+					</div>
+				</div>		
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
+				<div class="card">
+					<img class="card-img img-fluid" src="images/portfolio3.jpg" alt="">
+					<div class="card-body">
+						<h2 class="card-title">Finish</h2>
+						<p class="card-text"> Identify </p>
+					</div>
+				</div>		
+			</div>
+		</div>
+
+		<div class="row text-center row_setting_2">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
+				<div class="card">
+					<img class="card-img img-fluid" src="images/portfolio4.png" alt="">
+					<div class="card-body">
+						<h2 class="card-title"> Lines </h2>
+						<p class="card-text"> Branding </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
+				<div class="card">
+					<img class="card-img img-fluid" src="images/portfolio5.jpg" alt="">
+					<div class="card-body">
+						<h2 class="card-title">South West</h2>
+						<p class="card-text"> Website Design</p>
+					</div>
+				</div>		
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block m-auto">
+				<div class="card">
+					<img class="card-img img-fluid" src="images/portfolio6.jpg" alt="">
+					<div class="card-body">
+						<h2 class="card-title">Windows</h2>
+						<p class="card-text"> photography </p>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</section>
+
+	<!-- ////////////////Section3/////////////////////// -->
+
+	<section class="our_team" id="team">
+		<div class="container text-center teamsetting">
+			<h2> OUR AMAZING TEAM </h2>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed </p>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-12 d-block m-auto">
+					<figure class="figure">	
+						<img src="images/team1.jpg" class="figure-img img-fluid rounded-circle">
+						<figcaption>
+							<h4> Key Garland </h4>
+							<p class="figure-caption"> Lead Designer </p>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- //////////////////form Area /////////////////////// -->
+	<div class="container main_form col-lg-10" id="contact">
+		<h1 class="text-center" id="form_heading"> REGISTRATION FORM </h1>
+		<form method="post" action="index.php<?php echo $action; ?>" enctype="multipart/form-data">
+			<div class="form-group col-lg-8 col-md-8 col-sm-10 col-10">
+				<label> UserName</label>
+				<input type="text" name="user_name" class="form-control" value="<?php echo $userName ?>">
+				<label> Email Address</label>
+				<input type="email" name="user_email" class="form-control" value="<?php echo $userEmail ?>" >
+				<label> Password</label>
+				<input type="password" name="user_pass" class="form-control">
+				<label> User Role</label>
+				<input type="text" name="user_role" class="form-control" value="<?php echo $userRole ?>" >
+				<label> User Mobile</label>
+				<input type="number" name="user_mobile" class="form-control" value="<?php echo $userMobile ?>">
+				<label for="select"> Select City </label>
+				<select class="form-control" onchange="myFun(this.value)">
+					<option> Select City </option>
+					<option> Karachi </option>
+					<option> Lahore </option>
+					<option> Boluchistan </option>
+				</select>
+				<label for="select"> Select Town </label>
+				<select class="form-control" id="town">
+					<option> Select Town </option>
+				</select>
+				<label for="number"> Input Number </label>
+				<input type="text" name="" class="form-control" id="number">
+				<label> User Profile</label>
+				<input type="file" name="user_image" class="form-control">
+				<input type="button" name="" value="submit" class="btn btn-success" onclick="clickFun()" >
+				<!-- <input type="hidden" name="action" value="registration">
+				<input type="submit" name="login" value="login" class="btn btn-warning"> -->
+			</div>
+		</form>
+	</div>
+	<div class="" style="width: 100%;">
+		<footer>
+		<div class="main_footer" style="clear: both;">
+			<div class="footer_wrapper">
+				<div class="first_section">
+					<h1 style="color: white; text-align: center;">
+						Zeeshanweb
+					</h1>
+					<p style="color: white; text-align: center; letter-spacing: 1px; text-align: justify;">
+						Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.
+						tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.
+					</p>
+				</div>
+				<div class="second_section">
+					<h1 style="color: white; padding-left: 40px;"> My Usefull Links </h1>
+					<ul>
+						<li><a href="">Home</a></li><br/>
+						<li><a href="">about</a></li><br/>
+						<li><a href="">portfolio</a></li><br/>
+						<li><a href="">contact us</a></li><br/>
+						<li><a href="">my Social links</a></li><br/>
+					</ul>
+					<ul class="social_links_ul">
+						<li><li><i class="fab fa-facebook-f"></i></li></li>
+						<li><li><i class="fab fa-twitter"></i></li></li>
+						<li><li><i class="fab fa-youtube"></i></li></li>
+						<li><li><i class="fab fa-whatsapp"></i></li></li>
+					</ul>
+				</div>
+				<dir class="third_section">
+					<h1 style="color: white; padding-bottom: 20px;">Contact us</h1>
+					<div style="color: white; padding-bottom: 20px;"> My Name : Zeeshan Street</div> 
+					<div style="color: white; padding-bottom: 20px;"> My City : Karachi, NY 535022</div>
+					<div style="color: white; padding-bottom: 20px;"> My State : Pakistan </div>
+					<div style="color: white; padding-bottom: 20px;"> My Phone no : Phone: 03420248356</div>
+					<div style="color: white; padding-bottom: 20px;"> My Email Address: za373699@gmail.com</div>
+				</dir>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="footer_one" style="text-align: center;">
+				<p>"All rights reserved" is a copyright formality indicating that the copyright holder reserves, or holds for its own use, all the rights provided by copyright law.Originating in the Buenos Aires Convention of 1910, it is unclear if it has any legal effect in any jurisdiction.</p>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+
+	<script type="text/javascript">
+		
+		function clickFun() {
+			var value = document.getElementById('number').value;
+			alert(value);
+
+			var req = new XMLHttpRequest();
+			req.open( "GET", "change.php?datavalue="+value, true );
+			req.send();
+
+			req.onreadystatechange = function() {
+				if( req.readyState == 4 && req.status == 200 ) {
+					document.getElementById('number').innerHTML = req.responseText;
+				}
+			}
+
+
+		}
+
+
+
+	</script>
+
+
+</body>
+</html>
